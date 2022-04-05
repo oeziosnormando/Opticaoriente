@@ -1,12 +1,4 @@
-/*=== MEDIA QUERY ===*/
-/** --------------------------------------------------
-Author       : Dreambuzz
-Template Name: Rapoo - it solution landing template
-Author URI : https://themeforest.net/user/dreambuzz/portfolio
-Description: Rapoo,it, onepage,clean,bootstrap4, 
-Description: Rapoo,it, onepage,clean,bootstrap4, responsive,modern,agency,landing template.
-Version      : 1.0
-* -------------------------------------------------  */
+
 /*-----------------------------
  CSS INDEXING
 * --------------------------------------
@@ -472,7 +464,7 @@ PAGE BANNER
 .page-contact {
   position: relative;
   padding: 180px 0px;
-  background: url("../images/banner/p-6.jpg") fixed 50% 50% no-repeat;
+  background: url("../images/bg/img-home-banner.png") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -486,21 +478,7 @@ PAGE BANNER
 .page-about {
   position: relative;
   padding: 180px 0px;
-  background: url("../images/banner/about.jpg") fixed 50% 50% no-repeat;
-  background-size: cover;
-}
-
-.page-pricing {
-  position: relative;
-  padding: 180px 0px;
-  background: url("../images/banner/img2.jpg") fixed 50% 50% no-repeat;
-  background-size: cover;
-}
-
-.page-project {
-  position: relative;
-  padding: 180px 0px;
-  background: url("../images/banner/p-4.jpg") fixed 50% 50% no-repeat;
+  background: url("../images/bg/sobreimg.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -923,7 +901,7 @@ h5.subtitle {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(30, 79, 156, 0.925);
+ background-image: linear-gradient(30deg, rgba(121, 110, 255, 0.95) 0%, rgba(33, 200, 122, 0.95) 100%);
 }
 
 .overlay.feature-overlay {
@@ -969,7 +947,7 @@ h5.subtitle {
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 
-.project-content-block h4 {
+.project-content-block h4{
   color: #4A72B2;
 }
 
@@ -1713,7 +1691,7 @@ CONTACT PAGE
   .main-navigation {
     margin-top: 20px;
   }
-  .main-nav .navbar-brand h4 {
+  .main-nav .navbar-brand h3 {
     color: #fff;
   }
   .section-title {
@@ -1887,7 +1865,7 @@ CONTACT PAGE
     bottom: 0px;
     margin-top: 30px;
   }
-  .project-content-block h4 {
+  .project-content-block h4{
     font-size: 14px;
   }
   .testimonial-heading {
