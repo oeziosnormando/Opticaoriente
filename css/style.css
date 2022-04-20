@@ -820,7 +820,7 @@ h5.subtitle {
 -----------------------*/
 #services-2 {
   position: relative;
-  background: url("../images/bg/assistente-oculos.jpg") no-repeat fixed 50% 50%;
+  background: url("../images/bg/assistente-oculos.svg") no-repeat fixed 50% 50%;
   background-size: cover;
 }
 
@@ -887,7 +887,7 @@ h5.subtitle {
 -----------------------*/
 #projects-wrap {
   position: relative;
-  background: url("../images/bg/Professionalophthalmologista.svg") no-repeat;
+  background: url("../images/bg/parallax.jpg") no-repeat;
   background-size: contain;
 }
 
@@ -1317,7 +1317,7 @@ CONTACT PAGE
 }
 
 #footer {
-  background: url("../images/bg/assistente-oculos.svg");
+  background: url("../images/bg/Professionalophthalmologista.svg");
   background-size: contain;
 }
 
